@@ -82,7 +82,7 @@ This gives us a contour plot of zonal (east-west) winds and shows us some intere
 
 ### Veritical Temperature Profile of the Atmosphere
 
-The atmosphere is made of an ideal dry gas so we should expect a standard adiabatic lapse rate. **It would be cool to confirm the lapse rate measured in ISCA agrees with the lapse rate derived from theory** 
+The atmosphere is made of an ideal dry gas so we should expect a standard adiabatic lapse rate. **It would be cool to confirm the lapse rate measured in ISCA agrees with the lapse rate derived from theory**  --> Actually the lapse rate is prescribed in the model. It's not an emergency property of the system.
 
 One question I have is: **Is pressure a monotonic function always?** Because I could imagine on a planet with strong winds there no longer is a 1 to 1 correspondence with height.
 
@@ -97,4 +97,4 @@ The plots show the equator-pole temperature gradient quite nicely, but the most 
 
 ## Moving up the Model Hierarchy: The Next Step
 
-The Frierson Model?
+The Frierson Model? What does that mean? Stay tuned.
