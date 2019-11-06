@@ -4,7 +4,7 @@ This guide is intended for new PhD students in the Geoff Vallis group, although 
 
 **This guide was heavily inspired (and the majority was in fact copied directly) from Spencer Clark at GFDL, so he deserves all the credit.**
 
-Last Edited 24/09/19 by Brett Mckim (brettmckim@gmail.com). I welcome questions and comments.
+Last Edited 26/09/19 by Brett Mckim (brettmckim@gmail.com). I welcome questions and comments.
 
 ## Account Access
 
@@ -137,6 +137,10 @@ I find [Jupyter notebooks](https://jupyter.org) to be a fantastic environment fo
 
 This should function because of all the work we put in during the port forwarding section. To shorten this command, add an alias to your .bashrc file, which should be located in your home directory. I use the alias  `rjlab`.
 
+## Editing Remote Files in a local text editor through `rmate`
+
+I recently started using the  GUI-based text editor [Atom]This (https://atom.io) as a more friendly alternative to emacs. One way to set this up is with `rmate`, which allows one to use remote forwarding to open a file on a remote machine, and edit that file in a GUI-based application on your local machine. Pretty cool! I recommend going to the [`rmate` homepage on Github for instructions](https://github.com/textmate/rmate).  More instructions for using Atom to edit remote files can be found [here](https://atom.io/packages/remote-atom).
+
 ## Running ISCA
 
 Here is where the fun begins. ISCA can be configured in many ways, but the simplest setup is the Held-Suarez Configuration. Ask your peers to learn more about what the Held-Suarez configuration *is*. Navigate to your `/scratch/bam218/Isca/exp/test_cases/held_suarez` directory and from there, type:
@@ -232,3 +236,7 @@ plt.show()
 
 # All Done!
 
+
+ 
+
+> Written with [StackEdit](https://stackedit.io/).
